@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven Bundle Plugin
+Built-By: james
+Build-Jdk: 1.6.0_41
+Bnd-LastModified: 1381714485699
+Bundle-Description: A pure Java library for reading from and writing t
+ o MS Access databases.
+Bundle-DocURL: http://www.healthmarketscience.com
+Bundle-License: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Jackcess
+Bundle-SymbolicName: com.healthmarketscience.jackcess
+Bundle-Vendor: Health Market Science
+Bundle-Version: 2.0.1
+Export-Package: com.healthmarketscience.jackcess;uses:="com.healthmark
+ etscience.jackcess.complex,org.apache.commons.logging,com.healthmarke
+ tscience.jackcess.util,com.healthmarketscience.jackcess.query";versio
+ n="2.0.1",com.healthmarketscience.jackcess.complex;uses:="com.healthm
+ arketscience.jackcess";version="2.0.1",com.healthmarketscience.jackce
+ ss.query;version="2.0.1",com.healthmarketscience.jackcess.util;uses:=
+ "com.healthmarketscience.jackcess,org.apache.commons.logging,org.apac
+ he.commons.lang";version="2.0.1"
+Import-Package: com.healthmarketscience.jackcess.complex,com.healthmar
+ ketscience.jackcess.query,org.apache.commons.lang,org.apache.commons.
+ lang.builder,org.apache.commons.logging,org.apache.poi.poifs.filesyst
+ em;resolution:=optional
+Tool: Bnd-1.50.0
+

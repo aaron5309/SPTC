@@ -1,0 +1,73 @@
+/*************************************************/
+/* Overrides for styles in                       */
+/* http://www.instantiations.com/styles/main.css */
+/*************************************************/
+
+body {
+	font-family: Helvetica, Arial,sans-serif;
+	color: #000000;
+	background-color: #FFFFFF;
+	padding: 0px;
+	font-size: 80%;
+}
+ul, li {
+	list-style: square;
+	list-style-image: url(../images/bullet-sq-red.gif);
+}
+
+#banner-upper {
+	padding: 0px;
+	height: 50px;
+	background-color: #FFFFFF;
+	color: #6C1F88;
+	text-align: right;
+}
+#banner-lower {
+	padding: 0;
+	height: 38px;
+	background-color: #2E8AE6;
+	color: white;
+	margin: auto;
+} 
+
+.story {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.story ul li {
+	padding-bottom: 10px;
+	margin: 0;
+	margin-left: 20px;
+	padding-left: 0;
+}
+.story p {
+ 	padding-bottom: 10px;
+}
+.story image {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+.story .footnote {
+	font-size: 65%;
+	line-height: 1.1;
+ 	padding-bottom: 10px;
+}
+
+.section-header {
+	margin-left: 0;
+	padding: 2;
+	background:#2E8AE6;
+	color:#000000;
+}
+
+.site-category {
+	margin-left: 0;
+	padding-top: 15;
+	padding-bottom: 0;
+}
+.site-feature {
+	margin-left: 25;
+	padding-top: 5;
+	padding-bottom: 0;
+}
